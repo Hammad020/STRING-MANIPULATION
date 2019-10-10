@@ -3,7 +3,7 @@ DECLARE Str1 : STRING
 DECLARE Count : INTEGER
 
 Str1 = " "
-Count = 0
+Count = 1
 
 IsPangram = # False #
    IF LEN(Str1) >= 26
