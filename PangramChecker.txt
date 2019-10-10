@@ -1,0 +1,28 @@
+DECLARE IsPangram : BOOLEAN
+DECLARE Str1 : STRING
+DECLARE Count : INTEGER
+
+Str1 = " "
+Count = 0
+
+IsPangram = # False #
+   IF LEN(Str1) >= 26
+       THEN
+           IsPangram = # True #
+           Str1 = UPPER(Str1)
+           FOR Count = 65 to 95
+                   NextAlpha = CHR(Count)
+                   IF LOCATE (Str1, NextAlpha) = 0
+                       THEN
+                            IsPangram = # False #
+                            Exit FOR 
+                   ENDIF
+           ENDFOR
+   ENDIF
+   IF IsPangram = # True #
+       THEN
+           OUTPUT "Sentence is Pangram"
+       ELSE
+           OUTPUT "Sentence is Not a Pangram"
+   ENDIF
+     
