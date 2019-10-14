@@ -20,4 +20,4 @@ FOR Count = 1 to LENGHT(Str)
     ENDIF
 NEXT
 
-OUTPUT "The no of vovls in the entered string is: ", noofvovels 
+OUTPUT "The no of vovels in the entered string is: ", noofvovels 
