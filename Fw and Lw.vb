@@ -15,10 +15,10 @@
         Console.Write("Enter your second set of 2 words: ")
         Str2 = Console.ReadLine
 
-        Sp = LOCATE(Str1, ' ')
+        Sp = Instr(Str1, ' ')
         firstword = Left(Str1, Sp - 1)
 
-        Sp = LOCATE (Str2, ' ')
+            Sp = Instr(Str2, ' ')
         lastword = Right(Str2, LENGHT(Str2) - Sp)
 
         Str3 = firstword & ' ' & lastword
