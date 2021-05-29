@@ -1,0 +1,18 @@
+<html>
+<head><title>form</title></head><body>
+<form action=website method=post>
+<p>name
+<input type=text name=h maxlength=k
+   size=is value=tyn>
+</p><p.password<input type=password name=pl mx=is
+size=is value=A>
+</p>
+<p> payment
+<input type=checkbox name=cl>cash
+<input type=checkbox name=c2>credit 
+</p>
+<input type=submit name=b1 value=submit>
+<input type=button name=b2 value=cancel>
+</form>
+</body>
+</html>
